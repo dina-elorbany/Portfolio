@@ -1,0 +1,194 @@
+.app__testimonials {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+
+  &--testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 65%;
+    min-height: 350px;
+
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(237, 242, 248, 0.98),
+        rgba(255, 255, 255, 0.95),
+        rgba(237, 242, 248, 0.95)
+      ),
+      url(../../assets/testimonials-bg4.png);
+    background-size: 70%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+
+    transition: all 0.3s ease-in-out;
+
+    img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    @media screen and (min-width: 2000px) {
+      min-height: 450px;
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 800px) {
+      width: 85%;
+
+      img {
+        width: 55px;
+        height: 55px;
+      }
+    }
+
+    &-content {
+      flex: 1;
+      height: 100%;
+      padding: 2rem 0 1rem 2rem;
+      text-align: left;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      @media screen and (max-width: 1200px) {
+        padding: 1.5rem 0 0 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 2rem;
+        color: var(--black-color);
+        font-family: var(--font-base);
+
+        @media screen and (min-width: 1200px) {
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+      }
+
+      h4 {
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-top: 2rem;
+      }
+
+      h5 {
+        font-weight: 400;
+        color: var(--gray-color);
+        margin-top: 5px;
+      }
+    }
+  }
+
+  &--btns {
+    flex-direction: row;
+    margin-top: 1rem;
+
+    div {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: var(--secondary-color);
+      box-shadow: 0px 1px 10px rgba(7, 7, 7, 0.2);
+
+      margin: 1rem;
+      transition: all 0.3s ease-in-out;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        color: var(--primary-color);
+      }
+
+      &:hover {
+        background-color: rgba(75, 184, 186, 0.9);
+        box-shadow: 0px 1px 3px rgba(7, 7, 7, 0.5);
+        transform: translateY(-2px);
+
+        svg {
+          color: var(--white-color);
+        }
+      }
+
+      @media screen and (min-width: 2000px) {
+        width: 100px;
+        height: 100px;
+
+        svg {
+          width: 45px;
+          height: 45px;
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+        width: 30px;
+        height: 30px;
+
+        svg {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
+
+  &--brands {
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+    div {
+      width: 150px;
+      margin: 1.5rem;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.05) translateY(-2px);
+        }
+      }
+
+      @media screen and (min-width: 2000px) {
+        width: 210px;
+        margin: 2rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 120px;
+        margin: 1rem;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+}
