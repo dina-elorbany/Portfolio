@@ -15,7 +15,6 @@ const Certificates = () => {
 
     client.fetch(query).then(data => {
       setCertificates(data);
-      console.log(data);
     });
   }, []);
 

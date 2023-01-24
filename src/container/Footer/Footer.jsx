@@ -42,7 +42,7 @@ const Footer = () => {
         setLoading(false);
         setIsFormSubmitted(true);
       })
-      .catch(err => console.log(err));
+      .catch(err => console.error(err));
   };
 
   return (
@@ -76,7 +76,7 @@ const Footer = () => {
         <form
           action='mailto:dina.elorbany@outlook.com'
           method='post'
-          enctype='text/plain'
+          encType='text/plain'
           className='app__footer--form app__flex'
         >
           <div className='app__flex'>
