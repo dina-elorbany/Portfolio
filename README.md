@@ -22,6 +22,8 @@ I used:-
 - Framer Motion for nicely animate sections and elements.
 - Netlify linked to github for deploying the final version and keep it always and automatically up to date, the .env file was the reason for an issue in the deployment but it solved with the CI= npm run build command.
 
+> NOTE: There's a popup box appears when hovering on each experience in the section of "Skills $ Experiences" for more informaiton or details about this experience, it's only shown in the desktops screens cause it's a tooltip not as usual as hovering events.
+
 ## Images:
 ![view1](https://user-images.githubusercontent.com/72308423/214333744-0eb98b3d-6514-4896-98dd-f140774f0a49.png)
 ![view2](https://user-images.githubusercontent.com/72308423/214333915-3b1939c6-ba81-41c8-b079-88a632250b2d.png)
