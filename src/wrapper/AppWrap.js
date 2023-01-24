@@ -12,7 +12,7 @@ const AppWrap = (Component, idName, classNames) =>
 
           <div className='copyright'>
             <p className='p-text'>
-              &#169; 2023 Dina Elorbany, All rights reserved ☺
+              &#169; 2023 Dina Elorbany, All rights reserved
             </p>
           </div>
         </div>
