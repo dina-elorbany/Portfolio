@@ -21,3 +21,13 @@ I used:-
 - MaterialUi with tooltip and useMediaQuery for creating and stylying the popup section which contains each experience details.
 - Framer Motion for nicely animate sections and elements.
 - Netlify linked to github for deploying the final version and keep it always and automatically up to date, the .env file was the reason for an issue in the deployment but it solved with the CI= npm run build command.
+
+## Images:
+![view1](https://user-images.githubusercontent.com/72308423/214333744-0eb98b3d-6514-4896-98dd-f140774f0a49.png)
+![view2](https://user-images.githubusercontent.com/72308423/214333915-3b1939c6-ba81-41c8-b079-88a632250b2d.png)
+![view3](https://user-images.githubusercontent.com/72308423/214333968-43f5a841-50d8-4a3e-8ffa-6836a51ec169.png)
+![view4](https://user-images.githubusercontent.com/72308423/214334000-98b6a1df-b8eb-41ef-bbfc-aa6123a0a381.png)
+![view5](https://user-images.githubusercontent.com/72308423/214334025-c8294181-84f4-44ec-9908-2078e1e2c68f.png)
+![view6](https://user-images.githubusercontent.com/72308423/214334044-7b289550-849b-4c74-83f1-239896fb29e9.png)
+![view7](https://user-images.githubusercontent.com/72308423/214334059-c5a7fee0-b6c7-4ac9-a16e-d8cf41433cf1.png)
+![view8](https://user-images.githubusercontent.com/72308423/214334085-28c995d5-cdd5-406d-aad4-685ef3a8dd9a.png)
